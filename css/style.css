@@ -65,11 +65,17 @@
     color:#FF00FF;
 }
 
+#one {
+   color: transparent;
+}
+
+
 /* CARDS WHEN USING HOVER EFFECT */
 
 #one:hover {
-    background-image: url("../img/air_balloon.png");
+    background-image: url(../img/air_balloon.png);
     background-size: 80%;
     background-repeat: no-repeat;
     background-color: azure;
+    color: #FF00F;
 }
