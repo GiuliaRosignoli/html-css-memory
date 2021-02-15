@@ -85,7 +85,7 @@
     display: block;
 }
 
-#one:hover h2 {
+#one:hover  {
     background-image: url(../img/air_balloon.png);
     background-size: 80%;
     background-repeat: no-repeat;
@@ -93,7 +93,7 @@
     color: #FF00F;
 }
 
-#two:hover h2 {
+#two:hover {
     background-image: url(../img/bicycle.png);
     background-size: 80%;
     background-repeat: no-repeat;
@@ -101,7 +101,7 @@
     color: #20B2AA;
 }
 
-#three:hover h2 {
+#three:hover {
     background-image: url(../img/cruise_ship.png);
     background-size: 80%;
     background-repeat: no-repeat;
