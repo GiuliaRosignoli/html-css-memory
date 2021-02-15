@@ -1,5 +1,14 @@
+/* GENERAL STYLE */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Nerko One', cursive;
+}
+
+/* CONTAINER */
+
+.container {
+    padding: 50px;;
 }
