@@ -60,7 +60,16 @@
 .face-up.card > .card-title {
     position: absolute;
     bottom:20px;
-    margin: 0 50px;
-    font-size: 20px;
+    left: 55px;
+    font-size: 30px;
     color:#FF00FF;
+}
+
+/* CARDS WHEN USING HOVER EFFECT */
+
+#one:hover {
+    background-image: url("../img/air_balloon.png");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-color: azure;
 }
