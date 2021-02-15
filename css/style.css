@@ -36,7 +36,7 @@
 .card {
     float: left;
     width: calc(100% / 4 - 60px);
-    height: 200px;
+    height: 220px;
     margin: 30px;
     background: pink;
 }
@@ -44,4 +44,23 @@
 .face-down.card {
     background-image: url(../img/pattern.png) ;
     background-size: cover;
+}
+
+.cards.second.row .card:nth-child(2) {
+    background-image: url(../img/air_balloon.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-color: azure;
+}
+
+.face-up.card {
+    position: relative;
+}
+
+.face-up.card > .card-title {
+    position: absolute;
+    bottom:20px;
+    margin: 0 50px;
+    font-size: 20px;
+    color:#FF00FF;
 }
