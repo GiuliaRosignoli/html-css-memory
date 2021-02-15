@@ -55,10 +55,11 @@
 
 .face-up.card {
     position: relative;
-}
+} 
+
 
 .face-up.card > .card-title {
-    position: absolute;
+    position: absolute; 
     bottom:20px;
     left: 55px;
     font-size: 30px;
