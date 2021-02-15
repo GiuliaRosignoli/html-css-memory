@@ -103,3 +103,18 @@
     color: #FF00F;
 }  
        
+#five:hover {
+    background-image: url(../img/tractor.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-color: azure;
+    color: #FF00F; 
+}
+
+#seven:hover {
+    background-image: url(../img/tram.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-color: azure;
+    color: #FF00F; 
+}
