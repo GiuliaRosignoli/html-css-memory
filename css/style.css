@@ -39,6 +39,7 @@
     width: calc(100% / 4 - 60px);
     height: 220px;
     margin: 30px;
+    text-align: center;
     background: pink;
 }
 
@@ -54,15 +55,15 @@
     background-color: azure;
 }
 
-.face-up.card {
+.card {
     position: relative;
 } 
 
 
 .face-up.card > .card-title {
     position: absolute; 
+    width: 100%;
     bottom:20px;
-    left: 55px;
     font-size: 30px;
     color:#FF00FF;
 }
@@ -71,7 +72,20 @@
 
 /* CARDS WHEN USING HOVER EFFECT */
 
-#one:hover {
+.face-down.card h2 {
+    display: none;
+    position: absolute; 
+    width: 100%;
+    bottom:20px;
+    font-size: 30px;
+    color:#FF00FF;
+}
+
+.face-down.card:hover h2 {
+    display: block;
+}
+
+#one:hover h2 {
     background-image: url(../img/air_balloon.png);
     background-size: 80%;
     background-repeat: no-repeat;
@@ -79,42 +93,89 @@
     color: #FF00F;
 }
 
-#two:hover {
+#two:hover h2 {
     background-image: url(../img/bicycle.png);
     background-size: 80%;
     background-repeat: no-repeat;
     background-color: azure;
-    color: #FF00F;
+    color: #20B2AA;
 }
 
-#three:hover {
+#three:hover h2 {
     background-image: url(../img/cruise_ship.png);
     background-size: 80%;
     background-repeat: no-repeat;
     background-color: azure;
-    color: #FF00F;
+    color: #00FF7F;
 }
 
-#four:hover {
+#four:hover h2 {
     background-image: url(../img/submarine.png);
     background-size: 80%;
     background-repeat: no-repeat;
     background-color: azure;
-    color: #FF00F;
+    color: #6B8E23;
 }  
        
-#five:hover {
+#five:hover h2 {
     background-image: url(../img/tractor.png);
     background-size: 80%;
     background-repeat: no-repeat;
     background-color: azure;
-    color: #FF00F; 
+    color: #FF4500; 
 }
 
-#seven:hover {
+#seven:hover h2 {
     background-image: url(../img/tram.png);
     background-size: 80%;
     background-repeat: no-repeat;
     background-color: azure;
-    color: #FF00F; 
+    color: #BA55D3; 
+}
+
+#eight:hover h2 {
+    background-image: url(../img/tram.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-color: azure;
+    color: #BA55D3; 
+}
+
+#nine:hover h2 {
+    background-image: url(../img/tractor.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-color: azure;
+    color: #FF4500; 
+}
+
+#ten:hover h2 {
+    background-image: url(../img/submarine.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-color: azure;
+    color: #6B8E23; 
+}
+
+#eleven:hover h2{
+    background-image: url(../img/bicycle.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-color: azure;
+    color: #20B2AA; 
+}
+
+#twelve:hover h2 {
+    background-image: url(../img/cruise_ship.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-color: azure;
+    color: #00FF7F; 
+}
+
+h3 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: black;
 }
