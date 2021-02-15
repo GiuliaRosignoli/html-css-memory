@@ -19,6 +19,8 @@
 /* CONTAINER */
 
 .container {
+    width: 80%;
+    margin: auto;
     padding: 50px;
     background-color: aqua;
 }
@@ -33,8 +35,13 @@
  
 .card {
     float: left;
-    width: calc(100% / 4 - 20px);
+    width: calc(100% / 4 - 60px);
     height: 200px;
-    margin: 10px;
+    margin: 30px;
     background: pink;
+}
+
+.face-down.card {
+    background-image: url(../img/pattern.png) ;
+    background-size: cover;
 }
