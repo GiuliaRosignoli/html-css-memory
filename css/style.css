@@ -7,8 +7,34 @@
     font-family: 'Nerko One', cursive;
 }
 
+/* Utilities */
+
+.container.clearfix::after {
+    content: "";
+    display: table;
+    clear: both; 
+}  
+
+
 /* CONTAINER */
 
 .container {
-    padding: 50px;;
+    padding: 50px;
+    background-color: aqua;
+}
+
+.title {
+    padding-bottom: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+    color: azure;
+}
+ 
+.card {
+    float: left;
+    width: calc(100% / 4 - 20px);
+    height: 200px;
+    margin: 10px;
+    background: pink;
 }
