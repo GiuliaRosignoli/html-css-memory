@@ -66,9 +66,6 @@
     color:#FF00FF;
 }
 
-#one {
-   color: transparent;
-}
 
 
 /* CARDS WHEN USING HOVER EFFECT */
@@ -80,3 +77,28 @@
     background-color: azure;
     color: #FF00F;
 }
+
+#two:hover {
+    background-image: url(../img/bicycle.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-color: azure;
+    color: #FF00F;
+}
+
+#three:hover {
+    background-image: url(../img/cruise_ship.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-color: azure;
+    color: #FF00F;
+}
+
+#four:hover {
+    background-image: url(../img/submarine.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-color: azure;
+    color: #FF00F;
+}  
+       
