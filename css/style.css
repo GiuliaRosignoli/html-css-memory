@@ -44,7 +44,7 @@
 }
 
 .face-down.card {
-    background-image: url(../img/pattern.png) ;
+    background-image: url(../img/pattern.png);
     background-size: cover;
 }
 
@@ -78,7 +78,6 @@
     width: 100%;
     bottom:20px;
     font-size: 30px;
-    color:#FF00FF;
 }
 
 .face-down.card:hover h2 {
@@ -90,7 +89,7 @@
     background-size: 80%;
     background-repeat: no-repeat;
     background-color: azure;
-    color: #FF00F;
+    color: #FF00FF;
 }
 
 #two:hover {
@@ -109,7 +108,7 @@
     color: #00FF7F;
 }
 
-#four:hover h2 {
+#four:hover  {
     background-image: url(../img/submarine.png);
     background-size: 80%;
     background-repeat: no-repeat;
@@ -117,7 +116,7 @@
     color: #6B8E23;
 }  
        
-#five:hover h2 {
+#five:hover {
     background-image: url(../img/tractor.png);
     background-size: 80%;
     background-repeat: no-repeat;
@@ -125,7 +124,7 @@
     color: #FF4500; 
 }
 
-#seven:hover h2 {
+#seven:hover {
     background-image: url(../img/tram.png);
     background-size: 80%;
     background-repeat: no-repeat;
@@ -133,7 +132,7 @@
     color: #BA55D3; 
 }
 
-#eight:hover h2 {
+#eight:hover {
     background-image: url(../img/tram.png);
     background-size: 80%;
     background-repeat: no-repeat;
@@ -141,7 +140,7 @@
     color: #BA55D3; 
 }
 
-#nine:hover h2 {
+#nine:hover  {
     background-image: url(../img/tractor.png);
     background-size: 80%;
     background-repeat: no-repeat;
@@ -149,7 +148,7 @@
     color: #FF4500; 
 }
 
-#ten:hover h2 {
+#ten:hover {
     background-image: url(../img/submarine.png);
     background-size: 80%;
     background-repeat: no-repeat;
@@ -157,7 +156,7 @@
     color: #6B8E23; 
 }
 
-#eleven:hover h2{
+#eleven:hover {
     background-image: url(../img/bicycle.png);
     background-size: 80%;
     background-repeat: no-repeat;
@@ -165,7 +164,7 @@
     color: #20B2AA; 
 }
 
-#twelve:hover h2 {
+#twelve:hover {
     background-image: url(../img/cruise_ship.png);
     background-size: 80%;
     background-repeat: no-repeat;
